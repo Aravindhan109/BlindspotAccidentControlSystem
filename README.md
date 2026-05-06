@@ -1,18 +1,84 @@
 <div align="center">
+  <h1>Blind Spot Accident Control System</h1>
+  <p><b>AI-Powered Traffic Signal Optimization using YOLOv5</b></p>
   <p>
-    <a href="https://platform.ultralytics.com/?utm_source=github&utm_medium=referral&utm_campaign=platform_launch&utm_content=banner&utm_term=ultralytics_github" target="_blank">
-      <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" alt="Ultralytics YOLO banner"></a>
+    Real-time Object Detection • Intelligent Risk Prediction • Adaptive Signal Control
   </p>
+</div>
 
-[中文](https://docs.ultralytics.com/zh/) | [한국어](https://docs.ultralytics.com/ko/) | [日本語](https://docs.ultralytics.com/ja/) | [Русский](https://docs.ultralytics.com/ru/) | [Deutsch](https://docs.ultralytics.com/de/) | [Français](https://docs.ultralytics.com/fr/) | [Español](https://docs.ultralytics.com/es) | [Português](https://docs.ultralytics.com/pt/) | [Türkçe](https://docs.ultralytics.com/tr/) | [Tiếng Việt](https://docs.ultralytics.com/vi/) | [العربية](https://docs.ultralytics.com/ar/)
+---
 
-<div>
-    <a href="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml"><img src="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml/badge.svg" alt="YOLOv5 CI Testing"></a>
-    <a href="https://hub.docker.com/r/ultralytics/yolov5"><img src="https://img.shields.io/docker/pulls/ultralytics/yolov5?logo=docker" alt="Docker Pulls"></a>
-    <a href="https://discord.com/invite/ultralytics"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com/"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a> <a href="https://www.reddit.com/r/ultralytics/"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
-    <br>
-    <a href="https://bit.ly/yolov5-paperspace-notebook"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Run on Gradient"></a>
-    <a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+## 🚀 Overview
+
+The Blind Spot Accident Control System is an AI-driven traffic management solution designed to mitigate collisions caused by occlusions and limited driver visibility at road intersections. Conventional traffic signals operate on static timing schemes and lack situational awareness, making them ineffective in dynamically changing traffic environments. This system introduces real-time perception and decision-making capabilities by integrating deep learning-based object detection with adaptive signal control.
+
+---
+
+## 🧠 Core Technology
+
+The system leverages **YOLOv5 (You Only Look Once)**, a state-of-the-art real-time object detection model, to identify and track multiple classes of road entities including vehicles, pedestrians, and cyclists. Video streams from strategically positioned surveillance cameras are processed through an embedded inference pipeline, enabling low-latency detection under diverse environmental conditions.
+
+---
+
+## ⚙️ System Architecture
+
+1. **Data Acquisition Layer**  
+   Multi-angle cameras capture continuous video streams from blind spot zones.
+
+2. **Perception Layer**  
+   YOLOv5 performs frame-wise object detection and classification.
+
+3. **Tracking & Prediction Layer**  
+   Object trajectories are analyzed to estimate motion vectors and predict potential collision paths.
+
+4. **Decision Engine**  
+   A rule-based or ML-based logic evaluates risk levels and determines optimal signal actions.
+
+5. **Control Layer**  
+   Traffic signals are dynamically adjusted (green delay, red extension, priority override).
+
+---
+
+## ⚡ Key Features
+
+- Real-time multi-object detection and tracking  
+- Blind spot risk assessment using spatial-temporal analysis  
+- Adaptive traffic signal control  
+- Low-latency embedded system deployment  
+- Scalable integration with smart city infrastructure  
+
+---
+
+## 📊 Applications
+
+- High-density urban intersections  
+- Highway merging zones  
+- Accident-prone blind turns  
+- Smart city traffic ecosystems  
+
+---
+
+## ✅ Advantages
+
+- Significant reduction in intersection collisions  
+- Improved traffic efficiency and flow  
+- Autonomous decision-making with minimal human intervention  
+- Cost-effective upgrade to existing traffic systems  
+
+---
+
+## 🔮 Future Enhancements
+
+- Integration with IoT-based V2X (Vehicle-to-Everything) communication  
+- Edge AI optimization using TensorRT / ONNX  
+- Predictive analytics using deep reinforcement learning  
+- Cloud-based traffic monitoring dashboard  
+
+---
+
+## 🏁 Conclusion
+
+This system transforms traditional traffic control into an intelligent, perception-aware framework capable of preventing accidents before they occur. By combining computer vision and adaptive control strategies, it plays a critical role in advancing next-generation smart transportation systems.    <a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
     <a href="https://www.kaggle.com/models/ultralytics/yolov5"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a>
   </div>
   <br>
